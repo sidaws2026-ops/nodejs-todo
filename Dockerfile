@@ -9,7 +9,7 @@ COPY . .
 
 #Install the dependecies
 RUN npm install
-EXPOSE 3001
+EXPOSE 3003
 
 #Run the code
 CMD ["node","index.js"]
